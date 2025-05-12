@@ -115,14 +115,6 @@ const Login = () => {
             {errors.general}
           </div>
         )}
-        <div style={{ textAlign: 'center', marginTop: '1.2rem' }}>
-          <span style={{ color: '#6b7280', fontSize: '0.97rem' }}>
-            Don&apos;t have an account?{' '}
-            <Link to="/signup" style={{ color: '#3182ce', textDecoration: 'none', fontWeight: 600 }}>
-              Sign Up
-            </Link>
-          </span>
-        </div>
       </div>
     </div>
   );
